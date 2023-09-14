@@ -7,6 +7,9 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     private var contador:Int = 0
+    private var number1:String =""
+    private var number2:String =""
+    private var operation:String = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

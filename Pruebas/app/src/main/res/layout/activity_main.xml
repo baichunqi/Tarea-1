@@ -12,206 +12,270 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="5"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="410dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="6"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="410dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMas"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="4"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="410dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
 
     <Button
         android:id="@+id/buttonMas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="+"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="312dp"
-        tools:layout_editor_absoluteY="410dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonMenos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMurtiplicar" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="3"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonPunto"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMenos"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="2"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button0"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/buttonMenos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="-"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="312dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonIgual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMas" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:background="@android:color/white"
-        android:backgroundTint="#DF1515"
-        android:drawableTint="#C30E0E"
-        android:foregroundTint="#DC0707"
+        android:backgroundTint="#0D7D91"
         android:text="1"
-        android:textColorHighlight="#883333"
-        android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        app:iconTint="#6C2424"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button0"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/buttonAC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="AC"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        app:rippleColor="#C52121"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="195dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCompartir"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Numero"
+        app:rippleColor="#C52121" />
 
     <Button
         android:id="@+id/buttonCompartir"
         android:layout_width="192dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="COMPARTIR"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="195dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDividir"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonAC"
+        app:layout_constraintTop_toBottomOf="@+id/Numero" />
 
     <Button
         android:id="@+id/buttonDividir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="/"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="195dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonCompartir"
+        app:layout_constraintTop_toBottomOf="@+id/Numero" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="7"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="303dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAC" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="8"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="303dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCompartir" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="9"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="303dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMurtiplicar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDividir" />
 
     <Button
         android:id="@+id/buttonMurtiplicar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="X"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="312dp"
-        tools:layout_editor_absoluteY="303dp" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonMas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDividir" />
 
     <Button
         android:id="@+id/button0"
         android:layout_width="183dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="0"
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="624dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPunto"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
 
     <Button
         android:id="@+id/buttonPunto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="."
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="624dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonIgual"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button0"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/buttonIgual"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D7D91"
         android:text="="
         android:textColorHighlight="#883333"
         android:textColorLink="#E61818"
         app:cornerRadius="3dp"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="624dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonPunto"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMenos" />
 
     <TextView
         android:id="@+id/Numero"
@@ -220,6 +284,9 @@
         android:text="0"
         android:textAlignment="viewEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="74dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07999998" />
 </androidx.constraintlayout.widget.ConstraintLayout>

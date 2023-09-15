@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#979797"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="311dp"
+        android:layout_height="273dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/team"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:srcCompat="@android:drawable/ic_popup_disk_full" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="titulo"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/photo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10sp"
+        android:text="grupo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        tools:layout_editor_absoluteX="150dp" />
+
+    <SeekBar
+        android:id="@+id/time"
+        android:layout_width="335dp"
+        android:layout_height="28dp"
+        android:progress="25"
+        tools:layout_editor_absoluteX="380dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <SeekBar
+        android:id="@+id/volume"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="184dp"
+        android:layout_height="20dp"
+        android:max="10"
+        android:progress="7"
+        tools:layout_editor_absoluteX="457dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:id="@+id/tiempoComienzo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00"
+        tools:layout_editor_absoluteX="670dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/tiempoFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3:32"
+        tools:layout_editor_absoluteX="415dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_play"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="565dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_set_as"
+        tools:layout_editor_absoluteX="415dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <ImageButton
+        android:id="@+id/last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_media_previous"
+        tools:layout_editor_absoluteX="457dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <ImageButton
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_sort_alphabetically"
+        tools:layout_editor_absoluteX="513dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_media_next"
+        tools:layout_editor_absoluteX="641dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <ImageButton
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:layout_editor_absoluteX="659dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

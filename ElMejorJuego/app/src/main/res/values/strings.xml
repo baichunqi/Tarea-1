@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ElMejorJuego</string>
+    <string name="monster">veo que te gusta el Monster Hunter</string>
+    <string name="lol">veo que te gusta el League of toxic</string>
+    <string name="titan_fall">veo que te gusta el Titan-fall2</string>
+    <string name="civ">veo que te gusta el Civilization VI</string>
+    <string name="checked">“¡Sí que te mola!</string>
+    <string name="unchecked">¡¿No te molan!?</string>
+</resources>

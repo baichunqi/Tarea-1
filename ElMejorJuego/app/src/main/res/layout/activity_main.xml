@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cuál es el más mejor videojuego?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textoGuay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A ver cuál escoges..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="318dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toTopOf="@+id/darle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoGuay">
+
+        <RadioButton
+            android:id="@+id/monster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monster Hunter" />
+
+        <RadioButton
+            android:id="@+id/league"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="League of toxic" />
+
+        <RadioButton
+            android:id="@+id/titanfall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titanfall2" />
+
+        <RadioButton
+            android:id="@+id/civilization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Civilization" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/darle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="125dp"
+        android:text="¿Te gusta la encuesta?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+</androidx.constraintlayout.widget.ConstraintLayout>

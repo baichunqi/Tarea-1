@@ -19,12 +19,13 @@ class MainActivity : AppCompatActivity() {
             if(!calling){
                 call.setImageResource(R.drawable.colgar_9)
                 walter.setImageResource(R.drawable.walterwhite2_9)
-                texto.text = set
+                texto.text = getString(R.string.llamando)
                 calling = true
             } else if(calling){
                 call.setImageResource(R.drawable.ic_launcher)
                 walter.setImageResource(R.drawable.walterwhite_9)
                 calling = false
+                texto.text = getString(R.string.terminada)
             }
         }
 

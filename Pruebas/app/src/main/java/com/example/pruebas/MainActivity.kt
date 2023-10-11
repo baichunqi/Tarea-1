@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         val texto:TextView = findViewById<TextView>(R.id.Numero)
 
-                boton1.setOnClickListener{
+        boton1.setOnClickListener{
             number1 = 1
             texto.text = number1.toString()
         }
